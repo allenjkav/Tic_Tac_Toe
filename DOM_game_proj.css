@@ -1,0 +1,22 @@
+.boxy
+{
+    border:2px solid #000000;
+    margin: -2px 0 0 -2px;
+    width:70px;
+    height:70px;
+    text-align:center;
+    padding: 15px 0 15px 0;
+
+} 
+.row
+{
+    padding: 0 0 0 33%;
+}
+.blinker
+{
+    animation: blink 2s linear 3;
+
+}
+@keyframes blink {
+    50% {opacity:0;}
+}
